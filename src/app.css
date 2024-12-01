@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+	scroll-behavior: smooth;
+	--primary: #87ceeb;
+	--primary-dark: #27a7db;
+	--primary-dark-text: #242424;
+	--secondary: #e6f4fa;
+	--secondary-dark-text: #57bae3;
+	--tertiary: #15607e;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
